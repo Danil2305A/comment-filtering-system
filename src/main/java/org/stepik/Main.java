@@ -1,7 +1,7 @@
 package org.stepik;
 
 public class Main {
-    static void main() {
+    public static void main(String[] args) {
         String[] spamKeywords = new String[] {
                 "Без процентов",
                 "Кредит",
