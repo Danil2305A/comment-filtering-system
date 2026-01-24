@@ -9,7 +9,7 @@ public abstract class KeywordAnalyzer implements TextAnalyzer {
         String[] keywords = this.getKeywords();
 
         for (String keyword : keywords) {
-            if (text.contains(keyword)) {
+            if (text.toLowerCase().contains(keyword.toLowerCase())) {
                 return this.getLabel();
             }
         }
